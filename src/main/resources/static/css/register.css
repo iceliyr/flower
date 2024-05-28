@@ -1,0 +1,26 @@
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #23527c;
+}
+
+#form_msg {
+    color: red;
+}
